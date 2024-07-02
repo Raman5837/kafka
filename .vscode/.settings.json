@@ -1,12 +1,12 @@
 {
-    "[python]": {
-        "python.linting.enabled": true,
-        "python.linting.flake8Enabled": true,
-        "python.linting.flake8Path": "./flake8",
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "flake8.args": [
-        "--max-line-length=120",
-        "--ignore=E111,E114,E121,E131,W503,F405,F403,E126,E501,F841,E722"
-    ]
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "./flake8"
+  },
+  "flake8.args": [
+    "--max-line-length=120",
+    "--ignore=E111,E114,E121,E131,W503,F405,F403,E126,E501,F841,E722"
+  ]
 }
