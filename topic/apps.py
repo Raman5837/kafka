@@ -2,6 +2,6 @@
 from django.apps import AppConfig
 
 
-class InternalConfig(AppConfig):
+class TopicConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "internal"
+    name = "topic"
